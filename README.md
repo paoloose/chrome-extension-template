@@ -1,4 +1,4 @@
-# Chrome extension starter code
+# My setup for Chrome extensions
 
 My setup for writing chrome extensions (manifest v3) with TypeScript and Bun
 
