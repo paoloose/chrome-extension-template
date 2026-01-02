@@ -1,20 +1,18 @@
 # My setup for Chrome extensions
 
-My setup for writing chrome extensions (manifest v3) with TypeScript and Bun
-
-I didn't had the need to support manifest v2 extensions yet
+A simple and modern setup for writing chrome extensions (manifest v3) with TypeScript and Bun
 
 ## How to use
 
 This extension is designed with two parts:
 
-- The injector (injection.js), which is registered as a content scripts, and
+- The injector (`injection.js`), which is registered as a content script, and
   loaded in a selected group of pages (or any)
 
-- The actual code, which is located in `src/main.ts`
+- The actual codebase, whose entrypoint is located in `src/main.ts`
 
 Because the code is written in TypeScript, a compile and bundle state must be
-done before testing/publishing your code.
+done before testing/publishing your code
 
 ```console
 bun run build.ts
