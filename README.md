@@ -20,14 +20,15 @@ bun run build.ts
 
 ## How to test
 
-Go to `chrome://extensions`, enable de Developer Mode switch, and click
+Go to `chrome://extensions`, enable the Developer Mode switch, and click
 "Load unpacked"
 
 ![Extensions menu](assets/unrelated/extensions_site.png)
 
-Select the directory for this project, and test that the script being injected
-correctly. When testing changes, make sure you rebuild the code and reload the
-extension
+Select the directory where this project is located, and that's it.
+
+Verify that the script being injected correctly. When testing new changes,
+make sure you rebuild the code and reload the extension
 
 ![Reload button](assets/unrelated/extension_reload.png)
 
